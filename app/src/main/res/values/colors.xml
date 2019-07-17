@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_shen">#666666</color>
+    <color name="gray_qian">#B2B2B2</color>
+    <color name="blue">#1ba1e2</color>
+    <color name="green">#60a917</color>
+    <color name="red">#e51400</color>
+    <color name="orange">#FF8C00</color>
+    <color name="huabai">#FFFAF0</color> <!--灰石色 -->
+    <color name="babyblue">#4169E1</color> <!--浅蓝色 -->
+    <color name="black">#000000</color> <!--黑色 -->
+    <color name="reblack">#FF2E2B2B</color>
+    <color name="greebblue">#FFCCFF</color>
+</resources>

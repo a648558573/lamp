@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pic_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:text="名称"
+            android:textSize="12dp"
+            android:textColor="#ff000000" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="上传时间"
+            android:textSize="12dp"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/pic_line"
+        android:layout_below="@id/pic_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"/>
+
+    <Button
+        android:id="@+id/pic_list_bt_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="刷新"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:background="@color/babyblue"/>
+
+    <ListView
+        android:id="@+id/pic_list"
+        android:layout_below="@id/pic_line"
+        android:layout_above="@id/pic_list_bt_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ddd"
+        android:dividerHeight="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <TextView
+        android:id="@+id/pic_tip"
+        android:layout_below="@id/pic_line"
+        android:layout_above="@id/pic_list_bt_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="暂无图片信息"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/rod_time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="时间"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+    <TextView
+        android:id="@+id/rod_num"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="杆号"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+    <TextView
+        android:id="@+id/rod_real"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="末端编码"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+    <TextView
+        android:id="@+id/rod_V1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="电压1"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+    <TextView
+        android:id="@+id/rod_V2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="电压2"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+    <TextView
+        android:id="@+id/rod_I1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="电流1"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+    <TextView
+        android:id="@+id/rod_I2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="电流2"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+    <TextView
+        android:id="@+id/rod_P1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="功率1"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+    <TextView
+        android:id="@+id/rod_P2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="功率2"
+        android:textSize="16dp"
+        android:textColor="@color/gray_shen" />
+</LinearLayout>

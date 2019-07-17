@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="@color/babyblue"
+        android:id="@+id/login_relativelayout1">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textSize="22dip"
+            android:textColor="@color/white"
+            android:text="登录"/>
+        <TextView
+            android:id="@+id/login_set"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:background="@color/babyblue"
+            android:textColor="@color/white"
+            android:textSize="15dip"
+            android:text="设置"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/login_relativelayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/login_relativelayout1" >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/login_head"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/set_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_relativelayout2"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:text="当前IP与端口（可在设置中修改）"/>
+    <TextView
+        android:id="@+id/ip_port"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/set_tv"
+        android:text="http://183.233.174.11:10005"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <TextView
+        android:id="@+id/login_tv"
+        android:layout_below="@+id/ip_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:text="智能路灯账号登录"/>
+    <RelativeLayout
+        android:id="@+id/login_relativelayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/login_bg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+        <EditText
+            android:id="@+id/login_accountnum"
+            android:layout_width="320dp"
+            android:layout_height="37dp"
+            android:background="@color/white"
+            android:text="wqq"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="320dp"
+            android:layout_height="37dp"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:text="123456"
+            android:singleLine="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/login_login"
+        android:layout_below="@+id/login_relativelayout3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@color/blue"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="忘记密码?"
+        android:textSize="20dp"
+        android:background="@color/white"
+        android:layout_below="@+id/login_login"
+        android:layout_alignParentEnd="true"/>
+
+
+
+</RelativeLayout>

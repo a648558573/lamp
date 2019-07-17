@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/login_relativelayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/login_relativelayout1"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/wode1"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp" />
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="admin"
+            android:textSize="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageView3" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/editLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:weightSum="1"
+        android:layout_below="@+id/login_relativelayout2"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:id="@+id/org"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="组织"
+            android:textSize="14dp"
+            android:background="@color/white" />
+        <EditText
+            android:id="@+id/orgname"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:text="changhe"
+            android:textSize="15dp"
+            android:background="@color/white" />
+        <TextView
+            android:id="@+id/orgclass"
+            android:layout_width="44dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="类别"
+            android:textSize="14dp"
+            android:background="@color/white"/>
+
+        <!--<EditText-->
+            <!--android:id="@+id/orgclassname"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@color/white"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:inputType="text"-->
+            <!--android:text="changhe"-->
+            <!--android:textSize="15dp" />-->
+        <Spinner
+            android:id="@+id/orgclassname"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:entries="@array/orgclass"
+            android:layout_marginLeft="10dp"
+            android:dropDownVerticalOffset="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_below="@+id/editLayout"
+        android:weightSum="1"
+        android:layout_alignEnd="@+id/set_tv1">
+
+        <TextView
+            android:id="@+id/rename"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="实名姓名"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="108dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:text="changhe"
+            android:textSize="14dp"
+            android:background="@color/white"
+                  />
+
+        <TextView
+            android:id="@+id/repnumb"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="手机号码"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:id="@+id/phnumb"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:inputType="text"
+            android:text="changhe"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editLayout11111111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_below="@+id/editLayout11"
+        android:weightSum="1"
+        android:layout_alignEnd="@+id/set_tv1">
+
+        <TextView
+            android:id="@+id/rremark"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="备注"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/remark"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:text="changhe"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editLayout111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_below="@+id/editLayout11111111"
+        android:weightSum="1"
+        android:layout_alignEnd="@+id/set_tv1">
+
+        <TextView
+            android:id="@+id/remail"
+            android:layout_width="72dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="邮箱地址"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="259dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:text="changhe"
+            android:textSize="15dp"
+            android:background="@color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editLayout1111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_below="@+id/editLayout111"
+        android:weightSum="1"
+        android:layout_alignEnd="@+id/set_tv1">
+
+        <TextView
+            android:id="@+id/rcrtime"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="创建时间"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/crtime"
+            android:layout_width="106dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.12"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:text="changhe"
+            android:textSize="15dp"
+            android:textColor="@color/reblack"/>
+
+        <TextView
+            android:id="@+id/ruptime"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="更新时间"
+            android:textSize="14dp"
+            android:background="@color/white"/>
+
+        <EditText
+            android:id="@+id/uptime"
+            android:layout_width="136dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:text="changhe"
+            android:textSize="15dp"
+            android:textColor="@color/reblack"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editLayout11111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_below="@+id/editLayout1111"
+        android:weightSum="1"
+        android:layout_alignEnd="@+id/set_tv1">
+
+        <TextView
+            android:id="@+id/rlasttime"
+            android:layout_width="105dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="最近登陆时间"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/lasttime"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:text="changhe"
+            android:textSize="15dp"
+            android:textColor="@color/reblack"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editLayout111111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_below="@+id/editLayout11111"
+        android:weightSum="1"
+        android:layout_alignEnd="@+id/set_tv1">
+
+        <TextView
+            android:id="@+id/rrolename"
+            android:layout_width="105dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="角色"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/rolename"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="@color/reblack"/>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/toSet111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.72"
+            android:background="@color/blue"
+            android:text="确认修改"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_below="@+id/editLayout111111"/>
+
+</RelativeLayout>

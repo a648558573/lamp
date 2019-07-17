@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="40dp"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_dark">
+    <Button
+        android:id="@+id/title_view_back"
+        android:background="@drawable/back"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp" />
+    <TextView
+        android:id="@+id/title_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="终端报警"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

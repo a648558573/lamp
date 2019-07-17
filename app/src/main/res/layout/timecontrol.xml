@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/toRefresh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="刷新"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/babyblue" />
+        <Button
+            android:id="@+id/toGet"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="获取"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/babyblue" />
+        <Button
+            android:id="@+id/toSet"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="设置"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/babyblue" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_above="@id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical">
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:nestedScrollingEnabled="true" >
+            <com.example.administrator.light.customComponent.Time
+                android:id="@+id/time1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/shap_stroke"/>
+            <com.example.administrator.light.customComponent.Time
+                android:id="@+id/time2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/shap_stroke"/>
+
+            <com.example.administrator.light.customComponent.Time
+                android:id="@+id/time3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/shap_stroke" />
+
+            <com.example.administrator.light.customComponent.Time
+                android:id="@+id/time4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/shap_stroke"/>
+            <com.example.administrator.light.customComponent.Time
+                android:id="@+id/time5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/shap_stroke"/>
+            <com.example.administrator.light.customComponent.Time
+                android:id="@+id/time6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/shap_stroke"/>
+            <com.example.administrator.light.customComponent.Time
+                android:id="@+id/time7"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/shap_stroke"/>
+            <com.example.administrator.light.customComponent.Time
+                android:id="@+id/time8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/shap_stroke"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:dropDownVerticalOffset="50dp"
+                android:background="@drawable/shap_stroke"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/shap_stroke">
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="星期一"
+                    android:textSize="10dp"/>
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="星期二"
+                    android:textSize="10dp"/>
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="星期三"
+                    android:textSize="10dp"/>
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="星期四"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/shap_stroke">
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="星期五"
+                    android:textSize="10dp"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="星期六"
+                    android:textSize="10dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="星期日"
+                    android:textSize="10dp" />
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="星期可用"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/resultRistView"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/editbox_background_normal" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

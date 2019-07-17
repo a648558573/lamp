@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menuText">
+        <item>系统功能"</item>
+        <item>其他功能</item>
+        <item>附近地图</item>
+    </string-array>
+    <string-array name="childMenuText1">
+        <item>地图</item>
+        <item>报警</item>
+        <item>电参</item>
+        <item>时控</item>
+        <item>集中开关</item>
+        <item>单灯调光</item>
+        <item>单灯报警</item>
+        <item>单灯时控</item>
+        <item>单灯时控组设</item>
+    </string-array>
+    <string-array name="childMenuText2">
+        <item>能耗查询</item>
+        <item>三相电参图</item>
+        <item>资产比例图</item>
+        <item>日用电量</item>
+        <item>单灯电参历史</item>
+        <item>集中故障查询</item>
+        <item>单灯故障查询</item>
+        <item>视频</item>
+        <item>采集</item>
+    </string-array>
+
+    <string-array name="group">
+        <item>区域分组</item>
+        <item>电话分组</item>
+        <item>自定义分组</item>
+    </string-array>
+
+    <string-array name="map_single">
+        <item>单灯调光</item>
+        <item>单灯时控</item>
+    </string-array>
+    <string-array name="map_concentrator">
+        <item>时控</item>
+        <item>集中开关</item>
+        <item>单灯时控组设</item>
+    </string-array>
+
+
+    <string-array name="type">
+        <item>正常模式</item>
+        <item>应急模式</item>
+    </string-array>
+
+    <string-array name="team_set">
+        <item>未选</item>
+        <item>全夜灯1</item>
+        <item>全夜灯2</item>
+        <item>半夜灯1</item>
+        <item>半夜灯2</item>
+        <item>景观灯1</item>
+        <item>景观灯2</item>
+        <item>自定义灯1</item>
+        <item>自定义灯2</item>
+    </string-array>
+
+    <string-array name="spinner1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>禁用</item>
+    </string-array>
+    <string-array name="spinner2">
+        <item>无</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="simple_spinner1">
+        <item>全部</item>
+        <item>奇数杆</item>
+        <item>偶数杆</item>
+        <item>组号</item>
+    </string-array>
+    <string-array name="simple_spinner2">
+        <item>开灯</item>
+        <item>关灯</item>
+    </string-array>
+    <string-array name="simple_spinner3">
+        <item>255</item>
+        <item>0"</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="simple_spinner4">
+        <item>LED灯调光（0-100%）</item>
+        <item>钠灯调档（0-4档）</item>
+    </string-array>
+    <string-array name="simple_spinner5">
+        <item>时控灯1</item>
+        <item>时控灯2</item>
+        <item>组控</item>
+    </string-array>
+    <string-array name="simple_spinner6">
+        <item>档位时段1-4</item>
+        <item>档位时段5-8</item>
+        <item>组控</item>
+    </string-array>
+
+    <string-array name="force_onoff_spinner">
+        <item>警报信息</item>
+        <item>电流信息</item>
+        <item>亮度信息</item>
+        <item>时控分组</item>
+        <item>每杆灯数</item>
+        <item>报警界限</item>
+        <item>开关状态</item>
+        <item>时控灯1</item>
+        <item>时控灯2</item>
+        <item>开关灯时间</item>
+        <item>单杆时间</item>
+        <item>读PID</item>
+        <item>末端编码</item>
+        <item>范围杆号</item>
+        <item>功率参数</item>
+        <item>电池参数</item>
+        <item>温度信息</item>
+        <item>日用电量</item>
+        <item>声光报警</item>
+        <item>读对应交接</item>
+    </string-array>
+
+    <string-array name="count">
+        <item>按月能耗统计</item>
+        <item>按年能耗统计</item>
+        <item>按日能耗统计</item>
+        <item>时间段查询</item>
+    </string-array>
+    <string-array name="show">
+        <item>line</item>
+        <item>column</item>
+    </string-array>
+    <string-array name="option">
+        <item>总有功耗电量</item>
+        <item>抄表电度</item>
+        <item>终端数</item>
+        <item>灯数</item>
+        <item>照明密度</item>
+        <item>照明密度标准</item>
+        <item>全部显示</item>
+    </string-array>
+
+    <string-array name="daily_count">
+        <item>按月统计</item>
+        <item>按年统计</item>
+        <item>按日统计</item>
+        <item>时间段查询</item>
+    </string-array>
+    <string-array name="daily_show">
+        <item>line</item>
+        <item>bar</item>
+        <item>column</item>
+    </string-array>
+    <string-array name="daily_option">
+        <item>用电量</item>
+        <item>开灯时长</item>
+    </string-array>
+
+    <string-array name="three_phase_show">
+        <item>column</item>
+        <item>line</item>
+        <item>bar</item>
+    </string-array>
+    <string-array name="three_phase_type">
+        <item>三相电压</item>
+        <item>三相电流</item>
+        <item>能耗电度</item>
+    </string-array>
+    <string-array name="distance">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="pen_type">
+        <item>灯杆厂家占有比例图</item>
+        <item>灯杆类型占有比例图</item>
+        <item>灯具厂家占有比例图</item>
+        <item>灯具类型占有比例图</item>
+        <item>标准功率瓦数分类型占有比例图</item>
+        <item>电容有与没有和容量比例图</item>
+        <item>灯具型号瓦数等参数比例图</item>
+    </string-array>
+    <string-array name="query_type">
+        <item>终端号查询</item>
+        <item>区域查询</item>
+        <item>全部城市查询</item>
+    </string-array>
+    <string-array name="table_type">
+        <item>灯具型号瓦数</item>
+        <item>设备型号</item>
+    </string-array>
+    <string-array name="orgclass">
+        <item>厂家</item>
+        <item>代理商</item>
+        <item>销售商</item>
+        <item>工程商</item>
+        <item>工程实施地</item>
+    </string-array>
+</resources>

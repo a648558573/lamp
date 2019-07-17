@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/DetailParaTitle"
+            android:text="执行状态"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="执行状态"/>
+            <TextView
+                android:id="@+id/tv_single_state2"
+                style="@style/DetailParaRight"
+                android:text="设置xxxx-成功/失败" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="执行时间"/>
+            <TextView
+                android:id="@+id/tv_update_dtm"
+                style="@style/DetailParaRight"
+                android:text="00:00:00" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/DetailParaTitle"
+            android:text="基本信息"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="杆号"/>
+            <TextView
+                android:id="@+id/tv_rod_num"
+                style="@style/DetailParaRight"
+                android:text="x-x" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="末端编码"/>
+            <TextView
+                android:id="@+id/tv_rod_real"
+                style="@style/DetailParaRight"
+                android:text="xxx-xxx" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/DetailParaTitle"
+            android:text="灯1信息"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯1电流"/>
+            <TextView
+                android:id="@+id/tv_I1"
+                style="@style/DetailParaRight"
+                android:text="xxx" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯1电压"/>
+            <TextView
+                android:id="@+id/tv_V_rod"
+                style="@style/DetailParaRight"
+                android:text="xxx" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯1亮度"/>
+            <TextView
+                android:id="@+id/tv_Lux_1"
+                style="@style/DetailParaRight"
+                android:text="xxx" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯1开关状态"/>
+            <TextView
+                style="@style/DetailParaRight"
+                android:text="on/off" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/DetailParaTitle"
+            android:text="灯2信息"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯2电流"/>
+            <TextView
+                android:id="@+id/tv_I2"
+                style="@style/DetailParaRight"
+                android:text="xxx" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯2电压"/>
+            <TextView
+                android:id="@+id/tv_V_rod2"
+                style="@style/DetailParaRight"
+                android:text="xxx" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯2亮度"/>
+            <TextView
+                android:id="@+id/tv_Lux_2"
+                style="@style/DetailParaRight"
+                android:text="xxx" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯2开关状态"/>
+            <TextView
+                style="@style/DetailParaRight"
+                android:text="on/off" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/DetailParaTitle"
+            android:text="报警信息"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="灯杆警报"/>
+            <TextView
+                android:id="@+id/tv_rod_alarm"
+                style="@style/DetailParaRight"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="总警报内容"/>
+            <TextView
+                android:id="@+id/tv_alarm_info"
+                style="@style/DetailParaRight"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="1灯警报"/>
+            <TextView
+                android:id="@+id/tv_alarm_1"
+                style="@style/DetailParaRight"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="2灯警报"/>
+            <TextView
+                android:id="@+id/tv_alarm_2"
+                style="@style/DetailParaRight"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="1灯扩警报"/>
+            <TextView
+                android:id="@+id/tv_alarm_3"
+                style="@style/DetailParaRight"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="2灯扩警报"/>
+            <TextView
+                android:id="@+id/tv_alarm_4"
+                style="@style/DetailParaRight"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="电压上限"/>
+            <TextView
+                android:id="@+id/tv_rod_V_up"
+                style="@style/DetailParaRight"
+                android:text="0" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="电压下限"/>
+            <TextView
+                android:id="@+id/tv_rod_V_down"
+                style="@style/DetailParaRight"
+                android:text="0" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="电流1上限"/>
+            <TextView
+                android:id="@+id/tv_I1_up"
+                style="@style/DetailParaRight"
+                android:text="0" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="电流2上限"/>
+            <TextView
+                android:id="@+id/tv_I2_up"
+                style="@style/DetailParaRight"
+                android:text="0" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="1灯阀值"/>
+            <TextView
+                android:id="@+id/tv_I3_up"
+                style="@style/DetailParaRight"
+                android:text="0" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                style="@style/DetailParaLeft"
+                android:text="2灯阀值"/>
+            <TextView
+                android:id="@+id/tv_I4_up"
+                style="@style/DetailParaRight"
+                android:text="0" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+

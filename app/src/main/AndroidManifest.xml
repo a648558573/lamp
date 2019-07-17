@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.light" >
+
+    <application
+        android:name=".VollyQueue"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="fwYbGg03iDTrDzG9pT89shCe2h63wAS3" />
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+        </service>
+
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetIPActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Setpwd"></activity>
+        <activity android:name=".Updatepwd"></activity>
+        <activity android:name=".map.MapActivity"></activity>
+        <activity android:name=".ExpandablelistView"></activity>
+        <activity android:name=".ExpandablelistViewput"></activity>
+        <activity android:name=".Tree.Select_Tree"></activity>
+        <activity android:name=".fragment.ScanActivity"></activity>
+        <activity android:name=".conctrol.conctrolMenu"></activity>
+        <activity android:name=".BaseSearch"></activity>
+        <activity android:name=".fragment.FragmentUser"></activity>
+        <activity android:name=".fragment.FragmentSystem"></activity>
+        <activity android:name=".fragment.FragmentOther"></activity>
+        <activity android:name=".fragment.ActivityTree"></activity>
+        <activity android:name=".Tree.testExpandableList"></activity>
+        <activity android:name=".Tree.NewGroup"></activity>
+        <activity android:name=".Tree.GroupParameter"></activity>
+        <activity android:name=".system.ConcentratorAlarm.ConcentratorAlarm1"></activity>
+        <activity android:name=".system.ConcentratorAlarm.ConcentratorAlarm"></activity>
+        <activity android:name=".system.ConcentratorAlarm.ShowConcentratorAlarm"></activity>
+        <activity android:name=".system.ElectricalParameter"></activity>
+        <activity android:name=".system.TimeControl"></activity>
+        <activity android:name=".system.TimeControl_Group"></activity>
+        <activity android:name=".system.CentralizingSwitch"></activity>
+        <activity android:name=".system.CentralizingSwitch_Group"></activity>
+        <activity android:name=".system.SingleAlarm.SingleTerminal"></activity>
+        <activity android:name=".system.SingleAlarm.SingleAlarm"></activity>
+        <activity android:name=".system.Single_Dimming_TimeCtrl.SingleActivity"></activity>
+        <activity android:name=".system.SingleDetailParameter"></activity>
+        <activity android:name=".system.ResultList"></activity>
+        <activity android:name=".system.SingleTimeSetting"></activity>
+        <activity android:name=".other.Energy_query"></activity>
+        <activity android:name=".other.Daily"></activity>
+        <activity android:name=".other.Three_phase"></activity>
+        <activity android:name=".other.AssetRatio"></activity>
+        <activity android:name=".other.SingleParaHistory"></activity>
+        <activity android:name=".other.CentralizedFaultQuery"></activity>
+        <activity android:name=".other.SingleFaultQuery"></activity>
+        <activity android:name=".other.collect.Collection"></activity>
+        <activity android:name=".other.collect.SetSingle"></activity>
+        <activity android:name=".other.collect.SetConcentrator"></activity>
+        <activity android:name=".other.collect.SetLocation"></activity>
+        <activity android:name=".other.collect.UploadPic"></activity>
+        <activity android:name=".other.collect.GetSingle"></activity>
+        <activity android:name=".other.collect.GetConcentrator"></activity>
+        <activity android:name=".other.collect.GetList"></activity>
+        <activity android:name=".other.collect.PicList"></activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

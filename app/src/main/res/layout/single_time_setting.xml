@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btRefresh"
+            android:text="刷新"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/babyblue" />
+        <Button
+            android:id="@+id/btGet"
+            android:text="获取"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/babyblue"/>
+        <Button
+            android:id="@+id/btSet"
+            android:text="设置"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/babyblue" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_above="@id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bt_normal_border">
+                <com.example.administrator.light.customComponent.SingleSettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_group1">
+                </com.example.administrator.light.customComponent.SingleSettingItem>
+                <com.example.administrator.light.customComponent.SingleSettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_group2">
+                </com.example.administrator.light.customComponent.SingleSettingItem>
+                <com.example.administrator.light.customComponent.SingleSettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_group3">
+                </com.example.administrator.light.customComponent.SingleSettingItem>
+                <com.example.administrator.light.customComponent.SingleSettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_group4">
+                </com.example.administrator.light.customComponent.SingleSettingItem>
+                <com.example.administrator.light.customComponent.SingleSettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_group5">
+                </com.example.administrator.light.customComponent.SingleSettingItem>
+                <com.example.administrator.light.customComponent.SingleSettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_group6">
+                </com.example.administrator.light.customComponent.SingleSettingItem>
+                <com.example.administrator.light.customComponent.SingleSettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_group7">
+                </com.example.administrator.light.customComponent.SingleSettingItem>
+                <com.example.administrator.light.customComponent.SingleSettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setting_group8">
+                </com.example.administrator.light.customComponent.SingleSettingItem>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/resultListView"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/bt_normal_border" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
